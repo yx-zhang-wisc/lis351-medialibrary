@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="620" viewBox="0 0 700 620">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e3e6d7"/><stop offset="1" stop-color="#bdcbb5"/></linearGradient><filter id="shadow"><feDropShadow dx="12" dy="18" stdDeviation="12" flood-color="#344633" flood-opacity=".2"/></filter></defs>
+  <path fill="url(#bg)" d="M0 0h700v620H0z"/>
+  <circle cx="350" cy="295" r="235" fill="#f0eddf" opacity=".45"/>
+  <g transform="translate(200 75) rotate(-7 150 210)" filter="url(#shadow)">
+    <rect x="8" y="6" width="300" height="426" rx="5" fill="#eee1c3"/>
+    <path d="M10 414h296M10 420h296M10 426h296" stroke="#bbae90"/>
+    <rect width="300" height="416" rx="5" fill="#365540"/>
+    <path d="M15 0v416" stroke="#223e2c" stroke-width="5"/>
+    <rect x="32" y="25" width="244" height="364" rx="90" fill="none" stroke="#b7bf95" stroke-width="1.5"/>
+    <text x="155" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#d9ddbd">JANE AUSTEN</text>
+    <text x="155" y="176" text-anchor="middle" font-family="Georgia, serif" font-size="31" fill="#f0e7ca">Pride and</text>
+    <text x="155" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f0e7ca">Prejudice</text>
+    <g fill="none" stroke="#b7bf95" stroke-width="2"><path d="M155 355v-94M155 326q-38-2-46-39 36 0 46 39M155 311q39-6 44-41-30 5-44 41M155 345q32 0 40-22-30-3-40 22M155 282q-22-12-18-33 24 9 18 33"/></g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+  <defs>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#b0b99a"/><stop offset="1" stop-color="#63765e"/></linearGradient>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f2e5cd"/><stop offset="1" stop-color="#cbbd9f"/></linearGradient>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M0 20h80M0 60h80" stroke="#fff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <path fill="url(#wall)" d="M0 0h1600v700H0z"/>
+  <path fill="#92745c" d="M0 546h1600v154H0z"/>
+  <path stroke="#4f4338" stroke-width="12" d="M0 554h1600"/>
+  <!-- A shelf of books, a vinyl record, and a film reel. -->
+  <g transform="translate(95 135)">
+    <rect width="74" height="410" rx="5" fill="#b39c73"/><path d="M12 40h50M12 360h50" stroke="#e9d5ab" stroke-width="3"/>
+    <rect x="79" y="70" width="57" height="340" rx="4" fill="#435a49"/><path d="M94 102h27M94 374h27" stroke="#99a98b" stroke-width="3"/>
+    <rect x="141" y="30" width="91" height="380" rx="5" fill="#ccbb99"/><path d="M155 63h63M155 350h63" stroke="#8c7961" stroke-width="3"/>
+    <g transform="rotate(-12 277 410)"><rect x="237" y="52" width="68" height="358" rx="5" fill="#976b55"/><path d="M250 85h42M250 359h42" stroke="#d1ac87" stroke-width="3"/></g>
+  </g>
+  <g transform="translate(1130 310)">
+    <rect x="-90" y="-115" width="305" height="340" rx="4" fill="#d4c6a6" transform="rotate(8)"/>
+    <circle cx="110" cy="64" r="165" fill="#283531"/>
+    <g fill="none" stroke="#56615a" stroke-width="2"><circle cx="110" cy="64" r="145"/><circle cx="110" cy="64" r="132"/><circle cx="110" cy="64" r="119"/><circle cx="110" cy="64" r="106"/><circle cx="110" cy="64" r="93"/></g>
+    <circle cx="110" cy="64" r="53" fill="#b1895f"/><circle cx="110" cy="64" r="6" fill="#e9dcc4"/>
+  </g>
+  <g transform="translate(1490 457)"><circle r="90" fill="#9b9e8a"/><circle r="78" fill="none" stroke="#687362" stroke-width="3"/><g fill="#465349"><circle cy="-48" r="22"/><circle cx="46" cy="-15" r="22"/><circle cx="28" cy="39" r="22"/><circle cx="-28" cy="39" r="22"/><circle cx="-46" cy="-15" r="22"/><circle r="10"/></g></g>
+  <g transform="translate(510 490)"><path d="M0 0q125-33 250 0 125-33 250 0v64q-125-20-250 0-125-20-250 0z" fill="url(#paper)"/><path d="M250 0v54" stroke="#ac9d82" stroke-width="2"/></g>
+  <path fill="url(#grain)" d="M0 0h1600v700H0z"/>
+</svg>
